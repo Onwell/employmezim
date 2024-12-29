@@ -5,12 +5,12 @@ const features = [
   {
     icon: Users,
     title: 'Our Mission',
-    description: 'To connect talented professionals with their dream careers and help companies find the perfect candidates to drive their success.'
+    description: 'To bridge the gap between talent and opportunity by connecting skilled professionals with their dream jobs and helping companies secure the perfect candidates to fuel their growth.'
   },
   {
     icon: Target,
     title: 'Our Vision',
-    description: 'To become the leading job portal platform, known for innovation, reliability, and creating meaningful connections in the professional world.'
+    description: 'To establish Employ Me Zim as Zimbabwes most trusted and innovative job portal, recognized for its commitment to fostering meaningful professional connections.'
   },
   {
     icon: Globe,
@@ -26,7 +26,7 @@ export const AboutPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
           <h1 className="text-4xl font-bold text-white mb-6">About Us</h1>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-            We're dedicated to transforming how people find jobs and how companies hire talent.
+            At Employ Me Zim, we are passionate about revolutionizing the way job seekers and employers connect. Our platform is designed to simplify the hiring process, empowering individuals to find fulfilling careers while enabling businesses to discover exceptional talent.
           </p>
         </div>
       </div>
@@ -47,7 +47,9 @@ export const AboutPage: React.FC = () => {
         <div className="mt-16 prose dark:prose-invert max-w-none">
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Our Story</h2>
           <p className="text-gray-600 dark:text-gray-300">
-            Founded with a vision to revolutionize the job search experience, Job Portal has grown to become a trusted platform for both job seekers and employers. We understand the challenges of finding the right job and the right talent, which is why we've created a platform that makes these connections seamless and effective.
+            Founded with a commitment to transforming the job market in Zimbabwe, Employ Me Zim was created to address the challenges faced by both job seekers and employers. Whether you're looking for your next career move or seeking the ideal candidate to join your team, our platform is designed to make the process efficient, effective, and rewarding.
+
+Join us in redefining the future of employment in Zimbabwe!
           </p>
         </div>
       </div>

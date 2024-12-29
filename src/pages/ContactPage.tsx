@@ -19,7 +19,7 @@ export const ContactPage: React.FC = () => {
               <Mail className="w-6 h-6 text-blue-600 dark:text-blue-400 mt-1 mr-4" />
               <div>
                 <h3 className="font-semibold text-gray-900 dark:text-white">Email</h3>
-                <p className="text-gray-600 dark:text-gray-300">support@jobportal.com</p>
+                <p className="text-gray-600 dark:text-gray-300">o.masaraure@gmail.com</p>
               </div>
             </div>
 
@@ -27,7 +27,7 @@ export const ContactPage: React.FC = () => {
               <Phone className="w-6 h-6 text-blue-600 dark:text-blue-400 mt-1 mr-4" />
               <div>
                 <h3 className="font-semibold text-gray-900 dark:text-white">Phone</h3>
-                <p className="text-gray-600 dark:text-gray-300">+1 (555) 123-4567</p>
+                <p className="text-gray-600 dark:text-gray-300">+263 777 224 660</p>
               </div>
             </div>
 
@@ -36,9 +36,8 @@ export const ContactPage: React.FC = () => {
               <div>
                 <h3 className="font-semibold text-gray-900 dark:text-white">Address</h3>
                 <p className="text-gray-600 dark:text-gray-300">
-                  123 Job Street<br />
-                  San Francisco, CA 94105<br />
-                  United States
+                  Harare<br />
+                  Zimbabwe
                 </p>
               </div>
             </div>

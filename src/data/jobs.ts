@@ -52,4 +52,94 @@ export const jobs: Job[] = [
     expires: '2024-04-13',
     contactEmail: 'design@creativesolutions.com'
   }
+  ,
+  {
+    id: '4',
+    title: 'Product Designer',
+    company: 'Creative Solutions',
+    location: 'New York, NY',
+    type: 'Full-time',
+    description: 'Looking for a talented Product Designer to create beautiful and functional user interfaces.',
+    requirements: [
+      'Strong portfolio',
+      'Experience with Figma',
+      'Understanding of UX principles',
+      'Ability to work in cross-functional teams'
+    ],
+    posted: '2024-03-13',
+    expires: '2024-04-13',
+    contactEmail: 'design@creativesolutions.com'
+  }
+  ,
+  {
+    id: '5',
+    title: 'Product Designer',
+    company: 'Creative Solutions',
+    location: 'New York, NY',
+    type: 'Full-time',
+    description: 'Looking for a talented Product Designer to create beautiful and functional user interfaces.',
+    requirements: [
+      'Strong portfolio',
+      'Experience with Figma',
+      'Understanding of UX principles',
+      'Ability to work in cross-functional teams'
+    ],
+    posted: '2024-03-13',
+    expires: '2024-04-13',
+    contactEmail: 'design@creativesolutions.com'
+  }
+  ,
+  {
+    id: '6',
+    title: 'Product Designer',
+    company: 'Creative Solutions',
+    location: 'New York, NY',
+    type: 'Full-time',
+    description: 'Looking for a talented Product Designer to create beautiful and functional user interfaces.',
+    requirements: [
+      'Strong portfolio',
+      'Experience with Figma',
+      'Understanding of UX principles',
+      'Ability to work in cross-functional teams'
+    ],
+    posted: '2024-03-13',
+    expires: '2024-04-13',
+    contactEmail: 'design@creativesolutions.com'
+  }
+  ,
+  {
+    id: '7',
+    title: 'Product Designer',
+    company: 'Creative Solutions',
+    location: 'New York, NY',
+    type: 'Full-time',
+    description: 'Looking for a talented Product Designer to create beautiful and functional user interfaces.',
+    requirements: [
+      'Strong portfolio',
+      'Experience with Figma',
+      'Understanding of UX principles',
+      'Ability to work in cross-functional teams'
+    ],
+    posted: '2024-03-13',
+    expires: '2024-12-31',
+    contactEmail: 'design@creativesolutions.com'
+  }
+  ,
+  {
+    id: '8',
+    title: 'Product Designer',
+    company: 'Creative Solutions',
+    location: 'New York, NY',
+    type: 'Full-time',
+    description: 'Looking for a talented Product Designer to create beautiful and functional user interfaces.',
+    requirements: [
+      'Strong portfolio',
+      'Experience with Figma',
+      'Understanding of UX principles',
+      'Ability to work in cross-functional teams'
+    ],
+    posted: '2024-03-13',
+    expires: '2024-04-13',
+    contactEmail: 'design@creativesolutions.com'
+  }
 ];

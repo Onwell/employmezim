@@ -10,7 +10,7 @@ export const Header: React.FC = () => {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center">
             <Briefcase className="w-8 h-8 text-blue-600 dark:text-blue-400 mr-3" />
-            <h1 className="text-2xl font-bold text-gray-900 dark:text-white">Job Portal</h1>
+            <h1 className="text-2xl font-bold text-gray-900 dark:text-white">Employ Me Zim | Job Portal</h1>
           </Link>
           <ThemeToggle />
         </div>

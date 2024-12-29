@@ -2,10 +2,10 @@ import React from 'react';
 import { Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
 
 const socialLinks = [
-  { Icon: Facebook, href: '#', label: 'Facebook' },
-  { Icon: Twitter, href: '#', label: 'Twitter' },
-  { Icon: Linkedin, href: '#', label: 'LinkedIn' },
-  { Icon: Instagram, href: '#', label: 'Instagram' }
+  { Icon: Facebook, href: 'https://www.facebook.com/smugsolutions/', label: 'Facebook' },
+  { Icon: Twitter, href: 'https://x.com/smugsolutions', label: 'Twitter' },
+  { Icon: Linkedin, href: 'https://www.linkedin.com/in/onwell-masaraure-b14200130/', label: 'LinkedIn' },
+  { Icon: Instagram, href: 'https://www.instagram.com/smug_solutions/', label: 'Instagram' }
 ];
 
 export const SocialLinks: React.FC = () => {

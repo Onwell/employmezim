@@ -11,7 +11,7 @@ export const Footer: React.FC = () => {
           <div className="space-y-8 xl:col-span-1">
             <div className="flex items-center space-x-3">
               <Briefcase className="h-8 w-8 text-blue-600 dark:text-blue-400" />
-              <span className="text-xl font-bold text-gray-900 dark:text-white">Job Portal</span>
+              <span className="text-xl font-bold text-gray-900 dark:text-white">Employ Me Zim | Job Portal</span>
             </div>
             <p className="text-gray-600 dark:text-gray-400 text-base">
               Connecting talented professionals with their dream careers. Find your next opportunity today.
@@ -24,7 +24,7 @@ export const Footer: React.FC = () => {
         </div>
         <div className="mt-12 border-t border-gray-200 dark:border-gray-700 pt-8">
           <p className="text-base text-gray-500 dark:text-gray-400 text-center">
-            © {new Date().getFullYear()} Job Portal. All rights reserved.
+            © {new Date().getFullYear()} Employ Me Zim | Job Portal. All rights reserved. Website Designed by Onwell Masaraure
           </p>
         </div>
       </div>

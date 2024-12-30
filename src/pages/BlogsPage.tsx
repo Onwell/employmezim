@@ -1,32 +1,6 @@
 import React from 'react';
-import { FileText, Book, Award } from 'lucide-react';
-
-const blogs = [
-  {
-    title: 'How to Write an Effective Resume',
-    excerpt: 'Learn the key elements of a strong resume and how to make yours stand out to potential employers.',
-    author: 'Career Expert',
-    date: '2024-03-20',
-    readTime: '5 min read',
-    icon: FileText,
-  },
-  {
-    title: 'Resume Formatting Tips',
-    excerpt: 'Professional formatting guidelines to make your resume look clean and professional.',
-    author: 'HR Professional',
-    date: '2024-03-19',
-    readTime: '4 min read',
-    icon: Book,
-  },
-  {
-    title: 'Skills Section: What to Include',
-    excerpt: 'A comprehensive guide on highlighting your skills effectively on your resume.',
-    author: 'Recruitment Specialist',
-    date: '2024-03-18',
-    readTime: '6 min read',
-    icon: Award,
-  },
-];
+import { Link } from 'react-router-dom';
+import { blogs } from '../data/blogs';
 
 export const BlogsPage: React.FC = () => {
   return (
@@ -42,11 +16,12 @@ export const BlogsPage: React.FC = () => {
         {blogs.map((blog) => {
           const Icon = blog.icon;
           return (
-            <article
-              key={blog.title}
+            <Link
+              key={blog.id}
+              to={`/blogs/${blog.id}`}
               className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
             >
-              <div className="p-6">
+              <article className="p-6">
                 <div className="flex items-center justify-center w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-lg mb-4">
                   <Icon className="w-6 h-6 text-blue-600 dark:text-blue-400" />
                 </div>
@@ -60,8 +35,8 @@ export const BlogsPage: React.FC = () => {
                   <span>{blog.author}</span>
                   <span>{blog.readTime}</span>
                 </div>
-              </div>
-            </article>
+              </article>
+            </Link>
           );
         })}
       </div>

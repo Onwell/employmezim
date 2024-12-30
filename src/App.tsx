@@ -9,6 +9,7 @@ import { ContactPage } from './pages/ContactPage';
 import { PrivacyPage } from './pages/PrivacyPage';
 import { TermsPage } from './pages/TermsPage';
 import { BlogsPage } from './pages/BlogsPage';
+import { BlogDetailPage } from './pages/BlogDetailPage';
 import { TestimonialsPage } from './pages/TestimonialsPage';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="privacy" element={<PrivacyPage />} />
           <Route path="terms" element={<TermsPage />} />
           <Route path="blogs" element={<BlogsPage />} />
+          <Route path="blogs/:id" element={<BlogDetailPage />} />
           <Route path="testimonials" element={<TestimonialsPage />} />
         </Route>
       </Routes>

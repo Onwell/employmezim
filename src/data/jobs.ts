@@ -15,7 +15,7 @@ export const jobs: Job[] = [
       'Excellent problem-solving abilities'
     ],
     posted: '2024-03-15',
-    expires: '2024-04-15',
+    expires: '2025-04-15',
     contactEmail: 'careers@techcorp.com'
   },
   {
@@ -127,6 +127,60 @@ export const jobs: Job[] = [
   ,
   {
     id: '8',
+    title: 'Product Designer',
+    company: 'Creative Solutions',
+    location: 'New York, NY',
+    type: 'Full-time',
+    description: 'Looking for a talented Product Designer to create beautiful and functional user interfaces.',
+    requirements: [
+      'Strong portfolio',
+      'Experience with Figma',
+      'Understanding of UX principles',
+      'Ability to work in cross-functional teams'
+    ],
+    posted: '2024-03-13',
+    expires: '2024-04-13',
+    contactEmail: 'design@creativesolutions.com'
+  }
+  ,
+  {
+    id: '9',
+    title: 'Product Designer',
+    company: 'Creative Solutions',
+    location: 'New York, NY',
+    type: 'Full-time',
+    description: 'Looking for a talented Product Designer to create beautiful and functional user interfaces.',
+    requirements: [
+      'Strong portfolio',
+      'Experience with Figma',
+      'Understanding of UX principles',
+      'Ability to work in cross-functional teams'
+    ],
+    posted: '2024-03-13',
+    expires: '2024-04-13',
+    contactEmail: 'design@creativesolutions.com'
+  }
+  ,
+  {
+    id: '10',
+    title: 'Product Designer',
+    company: 'Creative Solutions',
+    location: 'New York, NY',
+    type: 'Full-time',
+    description: 'Looking for a talented Product Designer to create beautiful and functional user interfaces.',
+    requirements: [
+      'Strong portfolio',
+      'Experience with Figma',
+      'Understanding of UX principles',
+      'Ability to work in cross-functional teams'
+    ],
+    posted: '2024-03-13',
+    expires: '2024-04-13',
+    contactEmail: 'design@creativesolutions.com'
+  }
+  ,
+  {
+    id: '11',
     title: 'Product Designer',
     company: 'Creative Solutions',
     location: 'New York, NY',
